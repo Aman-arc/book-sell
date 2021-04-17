@@ -1,7 +1,8 @@
 import enum 
 import queue
  import time from collections
- import defaultdict  class Side(enum.Enum):   
+ import defaultdict 
+ class Side(enum.Enum):   
   BUY = 0     SELL = 1   def get_timestamp(): 
     """ Microsecond timestamp """    
  return int(1e6 * time.time())  
